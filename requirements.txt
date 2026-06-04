@@ -1,0 +1,24 @@
+# Core Data & ML
+pandas
+numpy
+scipy
+scikit-learn
+lightgbm
+nltk
+rank-bm25
+joblib
+
+# Semantic Search (FAISS + Sentence Transformers)
+sentence-transformers
+faiss-cpu
+torch
+
+# Web Backend
+fastapi
+uvicorn
+pydantic
+python-multipart
+
+# Utilities
+pyyaml
+matplotlib

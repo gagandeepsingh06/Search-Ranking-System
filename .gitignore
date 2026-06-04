@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data (large files — not tracked in git)
+data/raw/*.csv
+data/processed/*.csv
+data/embeddings/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Environment
+.env
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# Hugging Face model cache
+*.bin
+*.safetensors
+
+# ML model weights (large binary — stored via Git LFS or downloaded separately)
+# Uncomment the line below if you want to exclude the model from git:
+# models/lambdamart_ranker.pkl
